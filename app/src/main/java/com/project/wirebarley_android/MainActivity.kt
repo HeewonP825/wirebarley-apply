@@ -238,7 +238,7 @@ fun MainScreen(
             Spacer(modifier = Modifier.height(12.dp))
 
             Text(
-                text = if (rate != null) "환율 : ${FormatUtils.formatAmount(rate)} $receivingLabel / USD"
+                text = if (rate != null) "환율 : ${FormatUtils.formatAmount(rate)} $receivingCurrency / USD"
                 else "환율 정보가 없습니다",
                 color = TextBlack
             )
